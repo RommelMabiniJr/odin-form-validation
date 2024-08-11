@@ -1,0 +1,26 @@
+Form Fields Requirements:
+    * email
+        - must not be empty
+        - must be a valid email
+
+    * country
+        - must not be empty
+        - must only select from existing countries
+
+    * zip-code
+        - must not be empty
+        - zip cannot be validated if country field is invalid
+        - zip code must be valid or matches pattern based on the selected country
+
+    * password 
+        - must not be empty 
+        - atleast 8-20 characters long
+        - atleast 1 lowercase letter 
+        - atleast 1 uppercase letter
+        - atleast 1 number 
+        - atleast 1 special character
+
+    * password confirmation
+        - must not be empty
+        - must have upper password input filled out first and must be valid
+        - must match first password
