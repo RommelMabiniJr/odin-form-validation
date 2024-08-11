@@ -1,0 +1,501 @@
+{
+  "countries": [
+    {
+      "country": "United States",
+      "regex": "^\\d{5}(-\\d{4})?$",
+      "name": "Zip Code",
+      "mandatory": "Yes",
+      "validationMessage": "Please enter a valid US zip code (e.g., 12345 or 12345-6789)."
+    },
+    {
+      "country": "Canada",
+      "regex": "^[A-Z]\\d[A-Z] \\d[A-Z]\\d$",
+      "name": "Postal Code",
+      "mandatory": "Yes",
+      "validationMessage": "Please enter a valid Canadian postal code (e.g., A1A 1A1)."
+    },
+    {
+      "country": "United Kingdom",
+      "regex": "^(?:[A-Z]{1,2}\\d[A-Z\\d]? \\d[A-Z]{2}|GIR 0AA)$",
+      "name": "Postcode",
+      "mandatory": "No",
+      "validationMessage": "Please enter a valid UK postcode (e.g., SW1A 1AA, W1A 0AX, or M1 1AE)."
+    },
+    {
+      "country": "Argentina",
+      "regex": "^[A-Z]\\d{4}[A-Z]{3}$",
+      "name": "CPA",
+      "mandatory": "Yes",
+      "validationMessage": "Please enter a valid Argentine CPA (e.g., B1234ABC)."
+    },
+    {
+      "country": "Australia",
+      "regex": "^\\d{4}$",
+      "name": "Postcode",
+      "mandatory": "No",
+      "validationMessage": "Please enter a valid Australian postcode (e.g., 1234)."
+    },
+    {
+      "country": "Austria",
+      "regex": "^\\d{4}$",
+      "name": "Postal Code",
+      "mandatory": "Yes",
+      "validationMessage": "Please enter a valid Austrian postal code (e.g., 1234)."
+    },
+    {
+      "country": "Belgium",
+      "regex": "^\\d{4}$",
+      "name": "Code Postal",
+      "mandatory": "Yes",
+      "validationMessage": "Please enter a valid Belgian postal code (e.g., 1234)."
+    },
+    {
+      "country": "Brazil",
+      "regex": "^\\d{5}(-\\d{3})?$",
+      "name": "CEP",
+      "mandatory": "Yes",
+      "validationMessage": "Please enter a valid Brazilian CEP (e.g., 12345 or 12345-678)."
+    },
+    {
+      "country": "Bulgaria",
+      "regex": "^\\d{4}$",
+      "name": "Postal Code",
+      "mandatory": "Yes",
+      "validationMessage": "Please enter a valid Bulgarian postal code (e.g., 1234)."
+    },
+    {
+      "country": "Cambodia",
+      "regex": "^\\d{5}$",
+      "name": "Postal Code",
+      "mandatory": "",
+      "validationMessage": "Please enter a valid Cambodian postal code (e.g., 12345)."
+    },
+    {
+      "country": "Chile",
+      "regex": "^\\d{7}$|^\\d{3}-\\d{4}$",
+      "name": "Código postal",
+      "mandatory": "No",
+      "validationMessage": "Please enter a valid Chilean postal code (e.g., 1234567 or 123-4567)."
+    },
+    {
+      "country": "Colombia",
+      "regex": "^\\d{6}$",
+      "name": "Código postal",
+      "mandatory": "No",
+      "validationMessage": "Please enter a valid Colombian postal code (e.g., 123456)."
+    },
+    {
+      "country": "Croatia",
+      "regex": "^\\d{5}$",
+      "name": "Postal Code",
+      "mandatory": "Yes",
+      "validationMessage": "Please enter a valid Croatian postal code (e.g., 12345)."
+    },
+    {
+      "country": "Costa Rica",
+      "regex": "^\\d{5}(-\\d{4})?$",
+      "name": "Código postal",
+      "mandatory": "Yes",
+      "validationMessage": "Please enter a valid Costa Rican postal code (e.g., 12345 or 12345-6789)."
+    },
+    {
+      "country": "Czech Republic",
+      "regex": "^\\d{3} ?\\d{2}$",
+      "name": "Postal Code",
+      "mandatory": "No",
+      "validationMessage": "Please enter a valid Czech postal code (e.g., 123 45 or 12345)."
+    },
+    {
+      "country": "Denmark",
+      "regex": "^\\d{4}$|^\\d{2}$",
+      "name": "Postal Code",
+      "mandatory": "Yes",
+      "validationMessage": "Please enter a valid Danish postal code (e.g., 1234 or 12)."
+    },
+    {
+      "country": "Dominican Republic",
+      "regex": "^\\d{5}$",
+      "name": "Postal Code",
+      "mandatory": "Yes",
+      "validationMessage": "Please enter a valid Dominican postal code (e.g., 12345)."
+    },
+    {
+      "country": "Ecuador",
+      "regex": "^\\d{6}$",
+      "name": "Código postal",
+      "mandatory": "Yes",
+      "validationMessage": "Please enter a valid Ecuadorian postal code (e.g., 123456)."
+    },
+    {
+      "country": "Egypt",
+      "regex": "^\\d{5}$",
+      "name": "Postal Code",
+      "mandatory": "Yes",
+      "validationMessage": "Please enter a valid Egyptian postal code (e.g., 12345)."
+    },
+    {
+      "country": "Estonia",
+      "regex": "^\\d{5}$",
+      "name": "Postiindeks",
+      "mandatory": "Yes",
+      "validationMessage": "Please enter a valid Estonian postal code (e.g., 12345)."
+    },
+    {
+      "country": "Finland",
+      "regex": "^\\d{5}$",
+      "name": "Postinumero",
+      "mandatory": "Yes",
+      "validationMessage": "Please enter a valid Finnish postal code (e.g., 12345)."
+    },
+    {
+      "country": "France",
+      "regex": "^\\d{5}$",
+      "name": "Postal Code",
+      "mandatory": "No",
+      "validationMessage": "Please enter a valid French postal code (e.g., 12345)."
+    },
+    {
+      "country": "Germany",
+      "regex": "^\\d{5}$",
+      "name": "Postal Code",
+      "mandatory": "No",
+      "validationMessage": "Please enter a valid German postal code (e.g., 12345)."
+    },
+    {
+      "country": "Greece",
+      "regex": "^\\d{2} \\d{2}$",
+      "name": "Postal Code",
+      "mandatory": "No",
+      "validationMessage": "Please enter a valid Greek postal code (e.g., 12 34)."
+    },
+    {
+      "country": "Guatemala",
+      "regex": "^\\d{5}$",
+      "name": "Postal Code",
+      "mandatory": "No",
+      "validationMessage": "Please enter a valid Guatemalan postal code (e.g., 12345)."
+    },
+    {
+      "country": "Hungary",
+      "regex": "^\\d{4}$",
+      "name": "Postal Code",
+      "mandatory": "Yes",
+      "validationMessage": "Please enter a valid Hungarian postal code (e.g., 1234)."
+    },
+    {
+      "country": "India",
+      "regex": "^\\d{3}\\s?\\d{3}$",
+      "name": "Postcode",
+      "mandatory": "Yes",
+      "validationMessage": "Please enter a valid Indian postcode (e.g., 123 456 or 123456)."
+    },
+    {
+      "country": "Indonesia",
+      "regex": "^\\d{5}$",
+      "name": "Kode Pos",
+      "mandatory": "Yes",
+      "validationMessage": "Please enter a valid Indonesian postal code (e.g., 12345)."
+    },
+    {
+      "country": "Ireland",
+      "regex": "^[A-Z]\\d{2}\\s?[A-Z]{2}\\d{1}$|^[A-Z]{2}\\d{2}\\s?[A-Z]{2}$|^[A-Z]\\d{2}\\s?[A-Z]{2}\\d{2}$",
+      "name": "Eircode",
+      "mandatory": "No",
+      "validationMessage": "Please enter a valid Irish Eircode (e.g., A12 B34, AB12 CD34, or A12 BC34)."
+    },
+    {
+      "country": "Italy",
+      "regex": "^\\d{5}$",
+      "name": "CAP",
+      "mandatory": "Yes",
+      "validationMessage": "Please enter a valid Italian CAP (e.g., 12345)."
+    },
+    {
+      "country": "Jordan",
+      "regex": "^\\d{5}$",
+      "name": "Postal Code",
+      "mandatory": "Yes",
+      "validationMessage": "Please enter a valid Jordanian postal code (e.g., 12345)."
+    },
+    {
+      "country": "Kuwait",
+      "regex": "^\\d{5}$",
+      "name": "Postal Code",
+      "mandatory": "Yes",
+      "validationMessage": "Please enter a valid Kuwaiti postal code (e.g., 12345)."
+    },
+    {
+      "country": "Latvia",
+      "regex": "^\\d{4}$",
+      "name": "Pasta indekss",
+      "mandatory": "Yes",
+      "validationMessage": "Please enter a valid Latvian postal code (e.g., 1234)."
+    },
+    {
+      "country": "Lithuania",
+      "regex": "^\\d{5}$",
+      "name": "Pašto kodas",
+      "mandatory": "Yes",
+      "validationMessage": "Please enter a valid Lithuanian postal code (e.g., 12345)."
+    },
+    {
+      "country": "Luxembourg",
+      "regex": "^\\d{5}$",
+      "name": "Code Postal",
+      "mandatory": "Yes",
+      "validationMessage": "Please enter a valid Luxembourgish postal code (e.g., 12345)."
+    },
+    {
+      "country": "Malaysia",
+      "regex": "^\\d{5}$",
+      "name": "Polkod",
+      "mandatory": "Yes",
+      "validationMessage": "Please enter a valid Malaysian postal code (e.g., 12345)."
+    },
+    {
+      "country": "Malta",
+      "regex": "^[A-Z]{3} \\d{4}$",
+      "name": "Post Code",
+      "mandatory": "Yes",
+      "validationMessage": "Please enter a valid Maltese post code (e.g., ABC 1234)."
+    },
+    {
+      "country": "Mexico",
+      "regex": "^\\d{5}$",
+      "name": "Postal Code",
+      "mandatory": "Yes",
+      "validationMessage": "Please enter a valid Mexican postal code (e.g., 12345)."
+    },
+    {
+      "country": "Montenegro",
+      "regex": "^\\d{5}$",
+      "name": "Postal Code",
+      "mandatory": "Yes",
+      "validationMessage": "Please enter a valid Montenegrin postal code (e.g., 12345)."
+    },
+    {
+      "country": "Netherlands",
+      "regex": "^\\d{4}\\s?[A-Z]{2}$",
+      "name": "Postal Code",
+      "mandatory": "No",
+      "validationMessage": "Please enter a valid Dutch postal code (e.g., 1234 AB or 1234AB)."
+    },
+    {
+      "country": "New Zealand",
+      "regex": "^\\d{4}$",
+      "name": "Postcode",
+      "mandatory": "Yes",
+      "validationMessage": "Please enter a valid New Zealand postcode (e.g., 1234)."
+    },
+    {
+      "country": "Norway",
+      "regex": "^\\d{4}$",
+      "name": "Post Number",
+      "mandatory": "Yes",
+      "validationMessage": "Please enter a valid Norwegian post number (e.g., 1234)."
+    },
+    {
+      "country": "Oman",
+      "regex": "^\\d{3}$",
+      "name": "Postal Code",
+      "mandatory": "Yes",
+      "validationMessage": "Please enter a valid Omani postal code (e.g., 123)."
+    },
+    {
+      "country": "Pakistan",
+      "regex": "^\\d{5}$",
+      "name": "Post Code",
+      "mandatory": "Yes",
+      "validationMessage": "Please enter a valid Pakistani post code (e.g., 12345)."
+    },
+    {
+      "country": "Paraguay",
+      "regex": "^\\d{4}$",
+      "name": "Código postal",
+      "mandatory": "Yes",
+      "validationMessage": "Please enter a valid Paraguayan postal code (e.g., 1234)."
+    },
+    {
+      "country": "Peru",
+      "regex": "^\\d{5}$",
+      "name": "Postal Code",
+      "mandatory": "No",
+      "validationMessage": "Please enter a valid Peruvian postal code (e.g., 12345)."
+    },
+    {
+      "country": "Philippines",
+      "regex": "^\\d{4}$",
+      "name": "ZIP Code",
+      "mandatory": "Yes",
+      "validationMessage": "Please enter a valid Philippine ZIP code (e.g., 1234)."
+    },
+    {
+      "country": "Poland",
+      "regex": "^\\d{2}-\\d{3}$",
+      "name": "Postal Code",
+      "mandatory": "Yes",
+      "validationMessage": "Please enter a valid Polish postal code (e.g., 12-345)."
+    },
+    {
+      "country": "Portugal",
+      "regex": "^\\d{4}-\\d{3}$",
+      "name": "Código postal",
+      "mandatory": "Yes",
+      "validationMessage": "Please enter a valid Portuguese código postal (e.g., 1234-567)."
+    },
+    {
+      "country": "Romania",
+      "regex": "^\\d{6}$",
+      "name": "Postal Code",
+      "mandatory": "Yes",
+      "validationMessage": "Please enter a valid Romanian postal code (e.g., 123456)."
+    },
+    {
+      "country": "Russia",
+      "regex": "^\\d{6}$",
+      "name": "Postcode",
+      "mandatory": "Yes",
+      "validationMessage": "Please enter a valid Russian postcode (e.g., 123456)."
+    },
+    {
+      "country": "Saudi Arabia",
+      "regex": "^\\d{5}-\\d{4}$",
+      "name": "Postal code",
+      "mandatory": "Yes",
+      "validationMessage": "Please enter a valid Saudi postal code (e.g., 12345-6789)."
+    },
+    {
+      "country": "Serbia",
+      "regex": "^\\d{5}$",
+      "name": "Post Code",
+      "mandatory": "Yes",
+      "validationMessage": "Please enter a valid Serbian post code (e.g., 12345)."
+    },
+    {
+      "country": "Singapore",
+      "regex": "^\\d{6}$",
+      "name": "Postal Code",
+      "mandatory": "Yes",
+      "validationMessage": "Please enter a valid Singaporean postal code (e.g., 123456)."
+    },
+    {
+      "country": "Slovak Republic",
+      "regex": "^\\d{3}\\s?\\d{2}$",
+      "name": "PSC",
+      "mandatory": "Yes",
+      "validationMessage": "Please enter a valid Slovak postal code (e.g., 123 45 or 12345)."
+    },
+    {
+      "country": "Slovenia",
+      "regex": "^\\d{4}$",
+      "name": "Poštna številka",
+      "mandatory": "Yes",
+      "validationMessage": "Please enter a valid Slovenian postal code (e.g., 1234)."
+    },
+    {
+      "country": "South Africa",
+      "regex": "^\\d{4}$",
+      "name": "Postal Code",
+      "mandatory": "No",
+      "validationMessage": "Please enter a valid South African postal code (e.g., 1234)."
+    },
+    {
+      "country": "South Korea",
+      "regex": "^\\d{5}$",
+      "name": "Postal Code",
+      "mandatory": "No",
+      "validationMessage": "Please enter a valid South Korean postal code (e.g., 12345)."
+    },
+    {
+      "country": "Spain",
+      "regex": "^\\d{5}$",
+      "name": "Postal Code",
+      "mandatory": "Yes",
+      "validationMessage": "Please enter a valid Spanish postal code (e.g., 12345)."
+    },
+    {
+      "country": "Sweden",
+      "regex": "^SE-\\d{3}-\\d{2}$|^\\d{3}-\\d{2}$|^\\d{3}\\s?\\d{2}$|^\\d{5}$",
+      "name": "Postcode",
+      "mandatory": "No",
+      "validationMessage": "Please enter a valid Swedish postcode (e.g., SE-123-45, 123-45, 123 45, or 12345)."
+    },
+    {
+      "country": "Switzerland",
+      "regex": "^\\d{4}$",
+      "name": "PLZ",
+      "mandatory": "Yes",
+      "validationMessage": "Please enter a valid Swiss postal code (e.g., 1234)."
+    },
+    {
+      "country": "Taiwan",
+      "regex": "^\\d{3}$|^\\d{6}$|^\\d{3}-\\d{3}$",
+      "name": "Postal Code",
+      "mandatory": "No",
+      "validationMessage": "Please enter a valid Taiwanese postal code (e.g., 123, 123456, or 123-456)."
+    },
+    {
+      "country": "Tanzania",
+      "regex": "^\\d{5}$",
+      "name": "NAPS",
+      "mandatory": "No",
+      "validationMessage": "Please enter a valid Tanzanian postal code (e.g., 12345)."
+    },
+    {
+      "country": "Thailand",
+      "regex": "^\\d{5}$",
+      "name": "Postal Code",
+      "mandatory": "Yes",
+      "validationMessage": "Please enter a valid Thai postal code (e.g., 12345)."
+    },
+    {
+      "country": "Trinidad and Tobago",
+      "regex": "^\\d{6}$",
+      "name": "Postal Code",
+      "mandatory": "No",
+      "validationMessage": "Please enter a valid Trinidadian postal code (e.g., 123456)."
+    },
+    {
+      "country": "Tunisia",
+      "regex": "^\\d{4}$",
+      "name": "Postal Code",
+      "mandatory": "Yes",
+      "validationMessage": "Please enter a valid Tunisian postal code (e.g., 1234)."
+    },
+    {
+      "country": "Turkey",
+      "regex": "^\\d{5}$",
+      "name": "Posta kodu",
+      "mandatory": "Yes",
+      "validationMessage": "Please enter a valid Turkish posta kodu (e.g., 12345)."
+    },
+    {
+      "country": "Ukraine",
+      "regex": "^\\d{5}$",
+      "name": "Postal Code",
+      "mandatory": "Yes",
+      "validationMessage": "Please enter a valid Ukrainian postal code (e.g., 12345)."
+    },
+    {
+      "country": "Uruguay",
+      "regex": "^\\d{5}$",
+      "name": "Código Postal",
+      "mandatory": "Yes",
+      "validationMessage": "Please enter a valid Uruguayan código postal (e.g., 12345)."
+    },
+    {
+      "country": "Venezuela",
+      "regex": "^\\d{4}$|^\\d{4}-[A-Z]$",
+      "name": "Postal Code",
+      "mandatory": "Yes",
+      "validationMessage": "Please enter a valid Venezuelan postal code (e.g., 1234 or 1234-A)."
+    },
+    {
+      "country": "Vietnam",
+      "regex": "^\\d{6}$",
+      "name": "Mã bưu điện",
+      "mandatory": "No",
+      "validationMessage": "Please enter a valid Vietnamese mã bưu điện (e.g., 123456)."
+    }
+  ]
+}

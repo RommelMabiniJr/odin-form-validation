@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="script.js" defer></script>
+</head>
+
+<body>
+    <div class="form-container">
+        <div class="toast">
+            <div class="toast-graphic">
+                <img class="toast-icon-success" src="./src/assets/noun-success.svg" alt="Created by Pierre Ragois from Noun Project"/>
+            </div>
+            <div class="toast-content">
+                <div class="toast-header">
+                    Successful
+                </div>
+                <div class="toast-body">
+                    Your account has been created!
+                </div>
+            </div>
+           <div class="toast-exit">
+                <img class="toast-icon-exit" src="./src/assets/noun-exit.svg" alt="Created by PDesignify.me from Noun Project" />
+            </div>
+          </div>
+        <div class="header">
+            <div>
+                <span class="breadcrumb-item">WORK WITH US</span>
+                <span class="dot">•</span>
+                <span class="breadcrumb-item">CAREERS</span>
+                <span class="dot">•</span>
+                <span class="breadcrumb-item">SIGN UP</span>
+            </div>
+            <h1>CREATE AN ACCOUNT NOW!</h1>
+        </div>
+
+
+        <form novalidate>
+            <div class="form-item">
+                <label for="email">EMAIL</label>
+                <input required type="email" id="email" name="email">
+            <span class="validation-message" id="email-validation"></span>
+            </div>
+            <div class="form-item">
+                <label for="country">COUNTRY</label>
+                <input required list="country-list" id="country" name="country">
+                <span class="validation-message" id="country-validation"></span>
+                <datalist id="country-list">
+                </datalist>
+            </div>
+            <div class="form-item">
+                <label for="zip">ZIP CODE</label>
+                <input required id="zip" name="zip">
+                <span class="validation-message" id="zip-validation"></span>
+            </div>
+            <div class="form-item">
+                <label for="password">PASSWORD</label>
+                <input required minlength="8" maxlength="20" type="password" id="password" name="password">
+                <span class="validation-message" id="password-validation"></span>
+            </div>
+            <div class="form-item">
+                <label for="passwordConfirm">CONFIRM PASSWORD</label>
+                <input type="password" required id="passwordConfirm" name="passwordConfirm">
+                <span class="validation-message" id="password-confirm-validation"></span>
+            </div>
+
+            <div class="form-item">
+                <button type="button" class="submit-btn">SUBMIT DETAILS</button>
+            </div>
+        </form>
+
+    </div>
+</body>
+
+</html>
